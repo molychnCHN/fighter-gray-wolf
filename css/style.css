@@ -1,0 +1,105 @@
+*{padding: 0;margin: 0;}
+html,body{
+		width: 100%;
+		height: 100%;
+	}
+#wrap{
+	width: 100%;
+	height: 100%;
+	background: url(../img/game_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	max-width: 480px;
+	min-height: 480px;
+	position: relative;
+	margin: auto;
+}
+input{
+	width: 16%;
+	position: absolute;
+	top: 2.5%;
+	left: 18%;
+	font-size: 25px;
+	background: none;
+	border: none;
+	color: #9abbe8;
+}
+span{
+	display: block;
+	width: 56%;
+	height: 3%;
+	position: absolute;
+	top: 13.7%;
+	left: 20%;
+}
+span img{
+	width: 100%;
+	height: 100%;
+}
+#wrap div{
+	width: 33.75%;
+	height: 21.041666%;
+	position: absolute;
+	/*background: url(../img/h.png) 0 0 no-repeat;*/
+	background-size: 1000% 100%;
+	display: none;
+}
+#wrap div img{
+	width: 100%;
+	height: 100%;
+}
+#d1{
+	top: 24%;
+	left: 30%;
+}
+#d2{
+	top: 33.5%;
+	left:5%;
+}
+#d3{
+	top: 29.6%;
+	left:58%;
+}
+#d4{
+	top: 46%;
+	left:5%;
+}
+#d5{
+	top: 40%;
+	left:32%;
+}
+#d6{
+	top: 44.3%;
+	left:62%;
+}
+#d7{
+	top: 61.3%;
+	left:9%;
+}
+#d8{
+	top: 57%;
+	left:37%;
+}
+#d9{
+	top: 61.6%;
+	left:64%;
+}
+#btn{
+	position: absolute;
+	top: 87%;
+	left: 33%;
+	width: 35%;
+	height: 10%;
+	background: url(../img/begin.png) no-repeat;
+	background-size: 100% 100%;
+	border: none;
+	-webkit-transform:scale(1);
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
